@@ -1,6 +1,6 @@
 # Next-MixedTag
 <p align="center">
-    <img src='https://github.com/shahriarshafin/next-mixedtag/assets/32214710/92b71ee7-a82b-493e-b072-069a5cbf2b8b' alt="screenshot">
+    <img src='https://github.com/shahriarshafin/next-mixedtag/assets/32214710/10cfa334-6d88-4d9c-b56e-2ad943121bc7' alt="screenshot">
 </p>
 
 ## Description
