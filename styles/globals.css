@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-gray-200 font-medium;
+	}
+	section {
+		@apply py-10 container mx-auto max-w-3xl px-4;
+	}
+}
+
+@layer components {
+	.btn {
+		@apply bg-slate-900 text-white px-4 h-12 rounded cursor-pointer shadow-lg hover:bg-slate-600 transition ease-in;
+	}
+	.form-control {
+		@apply w-full h-12 px-4 py-2 flex items-center rounded outline-none font-normal gap-x-2 text-left;
+	}
+}
+
+.ReactTags__tagInput input.ReactTags__tagInputField,
+.ReactTags__tagInput input.ReactTags__tagInputField:focus {
+	height: 31px;
+	margin: 0;
+	font-size: 12px;
+	width: 100%;
+	border: 1px solid #eee;
+	display: none;
+}
+.ReactTags__selected span.ReactTags__tag {
+	@apply bg-gray-300 text-black font-bold text-xs p-2 m-2 rounded;
+}
+.ReactTags__selected a.ReactTags__remove {
+	color: #d00505;
+	margin-left: 5px;
+}
+.tagify__input .tagify__tag {
+	@apply !mb-1;
+}
+.tagify--mix .tagify__input {
+	@apply !m-1;
+}
